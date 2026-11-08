@@ -1,0 +1,28 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Local Database & Dynamic Runtime State
+/data/*.db
+/data/*.db-journal
+
+# Gradle & Android build artifacts
+.gradle/
+build/
+**/build/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.iml
+.idea/
+
+# Android Studio / IntelliJ
+*.keystore
+*.jks
+
+# Windows OS files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
